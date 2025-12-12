@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.4",
+    "next": "14.2.35",
     "react": "^18",
     "react-dom": "^18",
     "lucide-react": "^0.294.0",
@@ -22,7 +22,11 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "14.2.35",
     "typescript": "^5"
+  },
+  "overrides": {
+    "glob": "10.5.0",
+    "js-yaml": "4.1.1"
   }
 } 
